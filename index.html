@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A pomodoro clock for a Free Code Camp challenge.">
+		<title>Pomodoro Clock</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coda%7CSatisfy">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+		<main class="container">
+			<h1>Pomodoro Clock</h1>
+			<div class="wrapper">
+				<canvas id="canvas" width="300" height="250"></canvas>
+			</div>
+			<div class="controls">
+				<div class="work">
+					<p>Work</p>
+					<button id="workMinus">-</button>
+					<span id="workSession">25</span>
+					<button id="workPlus">+</button>
+				</div>
+				<div id="timer">25:00</div>
+				<div class="break">
+					<p>Break</p>
+					<button id="breakMinus">-</button>
+					<span id="breakSession">5</span>
+					<button id="breakPlus">+</button>
+				</div>
+			</div>
+			<button id="power">Start!</button>
+			<footer>Designed and coded by <a href="https://www.freecodecamp.com/vizij">Vizij</a></footer>
+		</main>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
